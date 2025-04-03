@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::Salesforce::VERSION
   gem.license       = 'MIT'
 
-  gem.add_dependency 'omniauth', '>2.1.3'
+  gem.add_dependency 'omniauth', '>=2.1.3'
   gem.add_dependency 'omniauth-oauth2'
   gem.required_ruby_version = '>= 3.3.3'
   gem.add_development_dependency 'rack-test'
